@@ -59,7 +59,7 @@ Command line utilities for the Sofia SIP UA library.
 
 %build
 ./autogen.sh
-%configure --disable-rpath --disable-static --without-doxygen --disable-stun
+%configure --disable-rpath --disable-static --without-doxygen --disable-stun --enable-ndebug
 make %{?_smp_mflags}
 #make doxygen
 
